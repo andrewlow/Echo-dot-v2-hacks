@@ -1,6 +1,6 @@
 # Docker
 
-When rooting the Echo Dot v2, it's helpful to do this in a container. The included Dockerfile creates a container with the [EchoCLI](https://github.com/Dragon863/EchoCLI) tools, adb, fastboot, and mtkclient. Everything that's needed to root the device and boot it.
+When rooting the Echo Dot v2, it's helpful to do this in a container. The included Dockerfile creates a container with the [EchoCLI](https://github.com/Dragon863/EchoCLI) tools, adb, fastboot, and [mtkclient](https://github.com/bkerler/mtkclient). Everything that's needed to root the device and boot it.
 
 ## Usage
 
