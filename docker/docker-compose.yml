@@ -1,0 +1,14 @@
+version: "3.5"
+services:
+  echo:
+    container_name: echo
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: echo
+    privileged: true
+    command: /bin/bash
+    restart: unless-stopped
+    volumes:
+      - /dev:/dev
+      - ./work:/work
