@@ -18,7 +18,7 @@ You can connect additional shells to this container with:
 
 Be aware that exiting the first shell will stop the container for all other shells.
 
-The container contains 3 folders of interest:
+The container contains 3 folders of interest, in addition to the `adb` and `fastboot` binaries:
 
 * /EchoCLI - the EchoCLI tools
 * /mtktools - the `mtk` script
